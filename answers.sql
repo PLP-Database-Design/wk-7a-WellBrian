@@ -2,7 +2,7 @@
 CREATE TABLE ProductDetail (
     OrderID INT,
     CustomerName VARCHAR(100),
-    Product VARCHAR(100)
+    Products VARCHAR(100)
 );
 
 -- Insert values to ProductDetail table
@@ -48,5 +48,6 @@ VALUES
 (102, 'Keyboard', 1),
 (102, 'Mouse', 2),
 (103, 'Phone', 1);
+
 
 
